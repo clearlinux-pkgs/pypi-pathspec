@@ -4,7 +4,7 @@
 #
 Name     : pypi-pathspec
 Version  : 0.9.0
-Release  : 27
+Release  : 28
 URL      : https://files.pythonhosted.org/packages/f6/33/436c5cb94e9f8902e59d1d544eb298b83c84b9ec37b5b769c5a0ad6edb19/pathspec-0.9.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f6/33/436c5cb94e9f8902e59d1d544eb298b83c84b9ec37b5b769c5a0ad6edb19/pathspec-0.9.0.tar.gz
 Summary  : Utility library for gitignore style pattern matching of file paths.
@@ -14,9 +14,6 @@ Requires: pypi-pathspec-license = %{version}-%{release}
 Requires: pypi-pathspec-python = %{version}-%{release}
 Requires: pypi-pathspec-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pathspec
-Provides: pathspec-python
-Provides: pathspec-python3
 
 %description
 *pathspec*: Path Specification
@@ -62,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641466752
+export SOURCE_DATE_EPOCH=1647299087
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
