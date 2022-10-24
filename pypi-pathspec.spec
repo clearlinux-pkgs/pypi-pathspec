@@ -4,7 +4,7 @@
 #
 Name     : pypi-pathspec
 Version  : 0.10.1
-Release  : 36
+Release  : 37
 URL      : https://files.pythonhosted.org/packages/24/9f/a9ae1e6efa11992dba2c4727d94602bd2f6ee5f0dedc29ee2d5d572c20f7/pathspec-0.10.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/24/9f/a9ae1e6efa11992dba2c4727d94602bd2f6ee5f0dedc29ee2d5d572c20f7/pathspec-0.10.1.tar.gz
 Summary  : Utility library for gitignore style pattern matching of file paths.
